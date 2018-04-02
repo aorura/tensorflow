@@ -18,3 +18,10 @@ def order(a, b):
 _, max = order(7,5)
 
 print(max)
+
+
+#To get the values printed along with their index I can use Python's enumerate function like this
+mylist = ["a","b","c","d"]
+for i,j in enumerate(mylist):
+    print(i,j)
+

@@ -1,40 +1,43 @@
-1. ÆÄÀÌ½ã ¼³Ä¡
+1. íŒŒì´ì¬ ì„¤ì¹˜
 www.python.org/downloads
-2.¾Æ³ªÄÜ´Ù ¼³Ä¡
+2.ì•„ë‚˜ì½˜ë‹¤ ì„¤ì¹˜
 www.anaconda.com/downloads
-Âü°í)ÀÌÀü ¹öÀü ¾Æ³ªÄÜ´Ù ¼³Ä¡ÇÏ°íÀÚ ÇÏ´Â °æ¿ì:
-repo.continuum.io/archive/index.html ÀÌµ¿ÇØ¼­ ¼±ÅÃ
-3. ½ÃÀÛ->ÇÁ·Î±×·¥->¾Æ³ªÄÜ´Ù->anaconda prompt¸¦ °ü¸®ÀÚ ±ÇÇÑÀ¸·Î ½ÇÇà
-4. pip ¸í·É ¾÷±×·¹ÀÌµå
+ì°¸ê³ )ì´ì „ ë²„ì „ ì•„ë‚˜ì½˜ë‹¤ ì„¤ì¹˜í•˜ê³ ìž í•˜ëŠ” ê²½ìš°:
+repo.continuum.io/archive/index.html ì´ë™í•´ì„œ ì„ íƒ
+3. ì‹œìž‘->í”„ë¡œê·¸ëž¨->ì•„ë‚˜ì½˜ë‹¤->anaconda promptë¥¼ ê´€ë¦¬ìž ê¶Œí•œìœ¼ë¡œ ì‹¤í–‰
+4. pip ëª…ë ¹ ì—…ê·¸ë ˆì´ë“œ
 >python -m pip install --upgrade pip
-5. conda È¯°æ ¸¸µé±â
+5. conda í™˜ê²½ ë§Œë“¤ê¸°
 >conda create -n tensorflow python=3.6
 ...
 proceed?(y/n) y
-6.ÅÙ¼­ÇÃ·Î¿ì °¡»óÈ¯°æ È°¼ºÈ­
+6.í…ì„œí”Œë¡œìš° ê°€ìƒí™˜ê²½ í™œì„±í™”
 >activiate tensorflow
-7.ÅÙ¼­ÇÃ·Î¿ì °¡»óÈ¯°æÀÌ È°¼ºÈ­ µÊ -> ÅÙ¼­ÇÃ·Î¿ì ¼³Ä¡
+7.í…ì„œí”Œë¡œìš° ê°€ìƒí™˜ê²½ì´ í™œì„±í™” ë¨ -> í…ì„œí”Œë¡œìš° ì„¤ì¹˜
 (tensorflow)>pip install tensorflow
-=> ¿À·ù°¡ ³ª¿À´Â °æ¿ì¿¡´Â  > conda install tensorflow
-=> ±×·¡µµ ¿À·ù°¡ ³ª¿À¸é => ±¸±Û¸µ...
-8. ÅÙ¼­ÇÃ·Î¿ì Å×½ºÆ®
+=> ì˜¤ë¥˜ê°€ ë‚˜ì˜¤ëŠ” ê²½ìš°ì—ëŠ”  > conda install tensorflow
+=> ê·¸ëž˜ë„ ì˜¤ë¥˜ê°€ ë‚˜ì˜¤ë©´ => êµ¬ê¸€ë§...
+8. í…ì„œí”Œë¡œìš° í…ŒìŠ¤íŠ¸
 (tensorflow)c:\users\....>python
 >>> import tensorflow as tf
 >>> hi=tf.constant('hi')
 >>> sess=tf.Session()
 >>>> print(sess.run(hello))
-b'hi' °á°ú°¡ Ãâ·ÂµÇ¾î¾ß ÇÔ
-9. ÆÄÀÌÂü ¼³Ä¡(www.jetbrains.com/pycharm)
-10. ÆÄÀÌÂü ½ÇÇà
-ÆÄÀÏ->¼ÂÆÃ->¿ÞÂÊ-ÇÁ·ÎÁ§Æ® ¼±ÅÃ-> ¿À¸¥ÂÊ-ÇÁ·ÎÁ§Æ® ÀÎÅÍÇÁ¸®ÅÍ °æ·Î ¼³Á¤ -> Åé´Ï¹ÙÄû
+b'hi' ê²°ê³¼ê°€ ì¶œë ¥ë˜ì–´ì•¼ í•¨
+9. íŒŒì´ì°¸ ì„¤ì¹˜(www.jetbrains.com/pycharm)
+10. íŒŒì´ì°¸ ì‹¤í–‰
+íŒŒì¼->ì…‹íŒ…->ì™¼ìª½-í”„ë¡œì íŠ¸ ì„ íƒ-> ì˜¤ë¥¸ìª½-í”„ë¡œì íŠ¸ ì¸í„°í”„ë¦¬í„° ê²½ë¡œ ì„¤ì • -> í†±ë‹ˆë°”í€´
 ->add local ->C:\ProgramData\Anaconda3\envs\tensorflow\python.exe
-ÁöÁ¤
-11. ±âÅ¸»çÇ×
-Ãß°¡ÀûÀ¸·Î ÆÐÅ°Áö ¼³Ä¡
+ì§€ì •
+11. ê¸°íƒ€ì‚¬í•­
+ì¶”ê°€ì ìœ¼ë¡œ íŒ¨í‚¤ì§€ ì„¤ì¹˜
 => (tensorflow)conda install matplotlib
 
 
-
+# useful command
+conda update -n base conda
+conda activate tensorflow
+conda deactivate
 
 
 
